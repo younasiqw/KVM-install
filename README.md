@@ -46,7 +46,10 @@ apt-get update
 yum update
 ```
 # 快速使用示例:
-
+### centos 6.9:
+```
+bash <(wget --no-check-certificate -qO- 'https://younasiqw.github.io/KVM-install/InstallNET.sh') -c 6.9 -v 64 -a
+```
 ### debian 7:
 ```
 bash <(wget --no-check-certificate -qO- 'https://younasiqw.github.io/KVM-install/InstallNET.sh') -d 7 -v 64 -a
